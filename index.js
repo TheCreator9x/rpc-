@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/yxn`;
+      const newDetails = `/makabelico sonando lleva un billeton`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
