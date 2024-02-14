@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205616250131058719/1207116388846538762/96A39B46-1F48-40E7-AD2B-5FD0A14D2ED9.gif?ex=65de79be&is=65cc04be&hm=d8a799b6c6491eb10c59bd942b8c5e2fbe2c41f127ae8d1a80bfc5d2dbe65712&') 
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205616250131058719/1207149994679865394/IMG_2336.jpg?ex=65de990a&is=65cc240a&hm=1fcd8f998f301d41c0ded2ffcd983d6543ede19a431af89e3de7f5f5b88ad20d&') 
     .addButton('/ixi','https://discord.gg/blackparty')
     
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/candy`;
+      const newDetails = `/just4u`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
