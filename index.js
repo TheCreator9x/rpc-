@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/xxx`;
+      const newDetails = `tu no quelia vel a yandel de nuevo`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
