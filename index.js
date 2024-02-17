@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205616250131058719/1206799768932847646/10.gif?ex=65dd52de&is=65caddde&hm=c7478b2b7bdcb8854f1e8d30621b6edac38d0ccdb965c1eb84ebcd5c533a45ff&') 
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205616250131058719/1208257581257330728/e73db1d568520988017d853e2e722568.gif?ex=65e2a08f&is=65d02b8f&hm=2b0ef840fc395253d523b2a73473c7188dcd3b6795407a8cac0119b3a823456b&') 
     .addButton('/ixi','https://discord.gg/blackparty')
     
 
