@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/af1`;
+      const newDetails = `/gxth`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
