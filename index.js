@@ -34,7 +34,7 @@ client.on('ready', async () => {
     
 
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1208983204812431450/1209372592406929489/d15c00a80b2d20cb06ad375873170f56.jpg?ex=65e6aeff&is=65d439ff&hm=b62179db321b27095185c6a352bae25c6db99fd0b16324780b6fdd2e85bca3e4&') 
-    .addButton('/','https://discord.gg/blackparty')
+    .addButton('/氏沙汰','https://discord.gg/blackparty')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ``;
+      const newDetails = `/`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
