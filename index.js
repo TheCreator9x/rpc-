@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
     
     .setName('/yxn')
-    .setDetails(`/氏さた [${formatTime()}]`)
+    .setDetails(`/ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
     
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/たててた`;
+      const newDetails = `/`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
