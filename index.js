@@ -33,8 +33,8 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205616250131058719/1208257581257330728/e73db1d568520988017d853e2e722568.gif?ex=65e2a08f&is=65d02b8f&hm=2b0ef840fc395253d523b2a73473c7188dcd3b6795407a8cac0119b3a823456b&') 
-    .addButton('/チミ','https://discord.gg/blackparty')
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1208983204812431450/1209372653643636736/a_16ff0008cf4d09d4a4a569214d07ff3a.gif?ex=65e6af0d&is=65d43a0d&hm=1611b15394606aab1db3a5732be1f10045f9a1f4bdee8aa4b1cce54d3cabf1bf&') 
+    .addButton('/','https://discord.gg/blackparty')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/チミラス`;
+      const newDetails = `/`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
