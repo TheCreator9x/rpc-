@@ -28,13 +28,13 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
     
     .setName('/yxn')
-    .setDetails(` [${formatTime()}]`)
+    .setDetails(`!? [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
     
 
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1010307595342450762/1130852656211042474/IMG_3097.jpg?ex=65dde29b&is=65cb6d9b&hm=bb7663fbaa7b8db735eb0fab51fda7622cb27b365dce5936aad01677856a2a54&') 
-    .addButton('/沙','https://discord.gg/blackparty')
+    .addButton('!?','https://discord.gg/blackparty')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ``;
+      const newDetails = `!?`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
