@@ -33,8 +33,8 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1208983204812431450/1212899406362181693/a_dda422d6b059ef3f394cdada1a7c7343_1.gif?ex=65fcbe19&is=65ea4919&hm=ca55824d9748e998950c7f2e655703ed6b618b0894c806ba5cabbff2c27b52e5&')
-    .addButton('/rvx','https://discord.gg/rvx')
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1215706372654633000/1217282671135297689/download.jpg?ex=660375d4&is=65f100d4&hm=6d34afc7c4d519204af5455c934ff495c6def6de4fe2fe1c1b4bd4ae5f678ecc&')
+    .addButton('/idkat','https://discord.gg/rvx')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `!! `;
+      const newDetails = `suicidio `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
