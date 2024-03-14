@@ -33,8 +33,8 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/925574783901528094/1081928852122632223/8508D22A-B76D-4759-A2BB-37367C4A6B44.gif?ex=66002843&is=65edb343&hm=b034d456e663742f42fd8d8ba980121f43c185cb1ba0feee27de5e08a75ea0ea&')
-    .addButton('/idkat','https://discord.gg/rvx')
+    
+    .addButton('wrds','https://discord.gg/rvx')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `lve`;
+      const newDetails = `im horrible asf`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
