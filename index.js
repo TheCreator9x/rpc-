@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1147935008087081031/1147950076128407693/healbanner_HvIeAjBE.jpg?ex=66006652&is=65edf152&hm=a76b3924b1085d6c56298a1389cb6b6202a39f0846269823326e5691296f008d&')
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1054114241931649114/1064126767859769365/96A39B46-1F48-40E7-AD2B-5FD0A14D2ED9.gif?ex=65fffe47&is=65ed8947&hm=6d0c44c653cd1d2aafb0fdd3adbd4b2eaf65f1bca5e90311941c324e18e56295&')
     .addButton('wrds','https://discord.gg/rvx')
     
 
