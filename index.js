@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
     
 
-    
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1147935008087081031/1147950076128407693/healbanner_HvIeAjBE.jpg?ex=66006652&is=65edf152&hm=a76b3924b1085d6c56298a1389cb6b6202a39f0846269823326e5691296f008d&')
     .addButton('wrds','https://discord.gg/rvx')
     
 
