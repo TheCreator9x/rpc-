@@ -28,13 +28,13 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
     
     .setName('/yxn')
-    .setDetails(`!? [${formatTime()}]`)
+    .setDetails(`/fuck love [${formatTime()}]`)
     .setStartTimestamp(Date.now())
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1054114241931649114/1064126767859769365/96A39B46-1F48-40E7-AD2B-5FD0A14D2ED9.gif?ex=65fffe47&is=65ed8947&hm=6d0c44c653cd1d2aafb0fdd3adbd4b2eaf65f1bca5e90311941c324e18e56295&')
-    .addButton('wrds','https://discord.gg/rvx')
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/854514305176305664/1202857387829239920/f074e0f5-2660-474c-95f1-efe273e7d5bd.jpeg?ex=66065a3d&is=65f3e53d&hm=7ad0dc8c58af9e90ed7f000152fdcd763eddc2ccd063636542f63ce3c1c75f33&')
+    .addButton('/fake','https://discord.gg/rvx')
     
 
 
