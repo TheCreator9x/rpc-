@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
     
 
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/854514305176305664/1202857387829239920/f074e0f5-2660-474c-95f1-efe273e7d5bd.jpeg?ex=66065a3d&is=65f3e53d&hm=7ad0dc8c58af9e90ed7f000152fdcd763eddc2ccd063636542f63ce3c1c75f33&')
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/969753546385936404/1221686154135605298/IMG_0852.jpeg?ex=66137ae4&is=660105e4&hm=4933a84c3a708bdc27ff1369d74b2914906d994fa80115df5cb61426a277161a&')
     .addButton('/fake','https://discord.gg/rvx')
     
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `/rvx`;
+      const newDetails = `/fuckall`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
