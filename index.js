@@ -34,7 +34,7 @@ client.on('ready', async () => {
     
 
   
-    .addButton('/xxx','https://discord.gg/rvx')
+    .addButton('/hdx','https://discord.gg/rvx')
     
 
 
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `xxhy`;
+      const newDetails = `bxx`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
